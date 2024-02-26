@@ -1,23 +1,26 @@
 {
-  "name": "practica-supervisada",
+  "name": "practica-supervisada-",
   "version": "1.0.0",
-  "description": "Practica",
+  "description": "Control academico de un establecimineto educativo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
-  "author": "Fabricio Lopez Teleguario",
+  "author": "Lisandro Fabricio López Teleguario",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.4",
-    "encrypt": "^0.0.1",
+    "dotenv": "^16.4.5",
     "express": "^4.18.2",
     "helmet": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.1.3",
-    "morgan": "^1.10.0",
-    "nodemon": "^3.0.3"
-  }
+    "mongoose": "^8.2.0",
+    "morgan": "^1.10.0"
+  },
+  "type": "module"
 }
